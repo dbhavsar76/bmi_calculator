@@ -1,2 +1,3 @@
 # bmi_calculator
-BMI Calculator made with Flutter
+
+BMI Calculator Application made with  Flutter.
