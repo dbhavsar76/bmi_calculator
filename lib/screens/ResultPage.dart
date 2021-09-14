@@ -14,7 +14,6 @@ class ResultPage extends StatelessWidget {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         title: kAppTitle,
-        centerTitle: true,
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,

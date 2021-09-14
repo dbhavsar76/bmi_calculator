@@ -11,10 +11,12 @@ class BmiCalculator extends StatelessWidget {
       title: 'BMI Calculator',
       theme: ThemeData.dark().copyWith(
         primaryColor: kPrimaryColor,
+        splashColor: Colors.white,
         scaffoldBackgroundColor: kPrimaryColor,
         appBarTheme: AppBarTheme.of(context).copyWith(
           centerTitle: true,
-          elevation: 10.0,
+          backgroundColor: kPrimaryColor,
+          elevation: 20.0,
         ),
       ),
       home: SelectorPage(),
